@@ -17,13 +17,13 @@ Then passed the video back to ChatGPT and asked to generate the ascii/ansi frame
 convert a video to ascii/ansi coloured frames, 5 frames per second, 180 columns wide, output as .ans files, packaged in a zip.
 ```
 
-After unziping, just run:
+After unziping, just run `./run.sh`:
 ```
-for f in frame_*.ans; do
+for f in frames/frame_*.ans; do
   clear
   cat "$f"
   sleep 0.2
 done
 ```
-Result:
-![Termigrator](docs/termigrator.gif)
+
+[Result](docs/termigrator.mov)
