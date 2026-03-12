@@ -1,4 +1,4 @@
-# ansi-ascii-animation
+# video-to-ansi-ascii-frames
 
 First I generated an image with ChatGPT:
 ```
